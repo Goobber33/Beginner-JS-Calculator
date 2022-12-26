@@ -1,10 +1,3 @@
-module.exports={
-    publicPath: "",
-    configureWebpack:{
-        
-    }
-}
-
 class Calculator {
     constructor(previousOperandTextElement, currentOperandTextElement) {
       this.previousOperandTextElement = previousOperandTextElement
@@ -91,8 +84,7 @@ class Calculator {
       }
     }
   }
-
- 
+  
   
   const numberButtons = document.querySelectorAll('[data-number]')
   const operationButtons = document.querySelectorAll('[data-operation]')
